@@ -1,0 +1,19 @@
+/* только стили для мейн меню*/
+
+.main-menu.container{
+    background: linear-gradient(0deg, rgba(48,232,230,1) 0%, rgba(244,45,253,1) 100%);
+}
+
+.main-menu__p{
+    color: red;
+}
+
+.list-menu a{
+    text-decoration: none;
+    color: rgb(130, 76, 180);
+}
+.list-menu a:hover{
+    text-decoration: underline;
+    color: aquamarine;
+    transition: all 0.3s;
+}
